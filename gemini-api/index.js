@@ -31,17 +31,6 @@ app.post("/api/generate", async (req, res) => {
   }
 });
 
-// Create an enpoint that will call dummy api using axios
-app.get("/api/dummy", async (req, res) => {
-  try {
-    const response = await axios.get(
-      "https://jsonplaceholder.typicode.com/todos/1"
-    );
-    res.json(response.data);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
-  }
-});
 
 // Start the server
 app.listen(PORT, () => {
