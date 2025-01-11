@@ -1,10 +1,16 @@
-import { Table, TableHeader, TableRow, TableHead } from "./../components/ui/table.jsx";
+import {
+  Table,
+  TableHeader,
+  TableRow,
+  TableHead,
+} from "./../components/ui/table.jsx";
 
 const Location = () => {
   return (
     <Table>
       <TableHeader>
         <TableRow>
+          <TableHead>Location</TableHead>
           <TableHead>Status</TableHead>
           <TableHead>Public Sentiment</TableHead>
         </TableRow>
