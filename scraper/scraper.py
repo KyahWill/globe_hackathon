@@ -3,6 +3,7 @@ import requests
 import csv
 import os
 import json
+import time
 #from dotenv import load_dotenv
 
 # Load the .env file
@@ -57,19 +58,7 @@ with open(csv_file_path, mode='r', encoding='utf-8') as file:
     for row in reader:
         csv_data.append(row)
         
-# Make the request
-#response = requests.get(endpoint, headers=headers, params=params)
-
-# if response.status_code == 200:
-#     tweets = response.json()
-#     for tweet in tweets['data']:
-#         print(f"Tweet: {tweet['text']}")
-# else:
-#     print(f"Error: {response.status_code}")
-
-
-# Path to save JSON file
-json_file_path = 'tweets.json'
+json_file_path = 'csv.json'
 
 # Open a JSON file to write the data
 with open(json_file_path, 'w', encoding='utf-8') as file:
@@ -77,18 +66,37 @@ with open(json_file_path, 'w', encoding='utf-8') as file:
     json.dump(csv_data, file, indent=4)
 
 print(f"Tweets have been saved to {json_file_path}")
+        
+        
+def fetch_tweets():
+    # Make the request
+    response = requests.get(endpoint, headers=headers, params=params)
+
+    # if response.status_code == 200:
+    #     tweets = response.json()
+    #     for tweet in tweets['data']:
+    #         print(f"Tweet: {tweet['text']}")
+    # else:
+    #     print(f"Error: {response.status_code}")
+
+    # Path to save JSON file
+    json_file_path2 = 'tweets.json'
+ 
+    # Scraped data to JSON
+    if response.status_code == 200:
+        tweets = response.json()
+
+        # Open a JSON file to write the data
+        with open(json_file_path, 'w', encoding='utf-8') as file:
+            # Save the data directly in JSON format
+            json.dump(tweets, file, indent=4)
+
+        print(f"Tweets have been saved to {json_file_path2}")
+    else:
+        print(f"Error: {response.status_code}")
     
-# Scraped data to JSON
-# if response.status_code == 200:
-#     tweets = response.json()
-
-#     # Open a JSON file to write the data
-#     with open(json_file_path, 'w', encoding='utf-8') as file:
-#         # Save the data directly in JSON format
-#         json.dump(tweets, file, indent=4)
-
-#     print(f"Tweets have been saved to {json_file_path}")
-# else:
-#     print(f"Error: {response.status_code}")
-    
-
+# Run the request every 5 minutes (300 seconds)
+while True:
+    fetch_tweets()
+    print("Waiting for the next request...")
+    time.sleep(30)  # Sleep for 5 minutes
