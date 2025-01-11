@@ -1,1 +1,4 @@
+node_modules
+gemini-api/node_modules
+gemini-api/.env
 api_keys.env
