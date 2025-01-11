@@ -1,0 +1,21 @@
+Post_ID,Platform,Post_Text,Created_At,Author
+1,Facebook,"""Internet down again in Makati! #Globe #internetproblems""",2023-10-26 8:00:00,user123
+2,Twitter,"""@Globe My connection in Quezon City has been unstable all morning.  Can't even load a webpage!""",2023-10-26 8:15:00,JuanDelaCruz
+3,Facebook,"""Anyone else having trouble with Globe in Pasig? Super slow internet!""",2023-10-26 9:00:00,MariaClara
+4,Twitter,"""Is Globe having an outage in Cebu? My internet is down.""",2023-10-26 9:30:00,CebuCitizen
+5,Facebook,"""Internet is crawling in Manila today. Thanks, Globe 🙄""",2023-10-26 10:00:00,ManilaResident
+6,Twitter,"""@Globe please fix the internet in Davao! It's been down for an hour!""",2023-10-26 10:30:00,DavaoDude
+7,Facebook,"""Having trouble streaming in Taguig. Is Globe down?""",2023-10-27 8:00:00,moviebuff
+8,Twitter,"""@Globe internet is down in Pasay! Please advise.""",2023-10-27 9:00:00,PasayUser
+9,Facebook,"""Another day, another Globe outage in Makati. 😤""",2023-10-27 10:00:00,frustrateduser
+10,Twitter,"""Internet is spotty in Quezon City.  @Globe what's going on?""",2023-10-27 11:00:00,QC_Resident
+11,Facebook,"""Can't get online in Cebu. Is it just me or is Globe down?""",2023-10-28 8:00:00,cebuana
+12,Twitter,"""@Globe any updates on the outage in Davao?""",2023-10-28 9:00:00,DavaoGamer
+13,Facebook,"""Internet is back in Taguig! Thanks, Globe!""",2023-10-28 10:00:00,happycustomer
+14,Twitter,"""Still no internet in Pasay. @Globe this is getting ridiculous.""",2023-10-28 11:00:00,PasayBusiness
+15,Facebook,"""Finally! Internet is working again in Makati. #Globe""",2023-10-29 8:00:00,relieved
+16,Twitter,"""Internet seems to be stable now in Quezon City.  @Globe""",2023-10-29 9:00:00,online_shopper
+17,Facebook,"""Anyone else experiencing slow internet in Cebu? #Globe""",2023-10-29 10:00:00,cebu_foodie
+18,Twitter,"""@Globe internet is down again in Davao! This is the third time this week!""",2023-10-29 11:00:00,davao_student
+19,Facebook,"""Having trouble connecting to the internet in Taguig. @Globe please help!""",2023-10-30 8:00:00,taguig_resident
+20,Twitter,"""Internet is out in Pasay. @Globe is there an estimated time of restoration?""",2023-10-30 9:00:00,pasay_local
