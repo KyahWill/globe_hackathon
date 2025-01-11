@@ -1,0 +1,16 @@
+Platform,Date,Location,"Post Id",Post,"Number of likes","Number of comments","post type","Content Type"
+Facebook,2024-03-08,"Manila, Philippines",fb_net_101,"Grabe ang bilis ng internet ngayon sa area namin! Salamat, Globe! Finally, makakapag-work na nang maayos. #GlobeFiber #FastInternet",156,12,text,post
+Twitter,2024-03-08,"Cebu City, Philippines",tw_net_202,"@SmartCares bakit laging mahina signal sa amin? Nakakainis na! Need nyo ayusin yan! #SmartSignal #PoorService",34,20,text,post
+Instagram,2024-03-07,"Quezon City, Philippines",ig_net_303,"Just renewed my plan with DITO! Sulit talaga ang services nila. Highly recommended! 👍 #DITOph #HappySubscriber",289,25,image,post
+Facebook,2024-03-06,"Davao City, Philippines",fb_net_404,"Napaka-unreliable ng Globe! Lagi na lang walang signal pag kailangan. 😡 #GlobeSucks #PoorNetwork",88,45,text,post
+Twitter,2024-03-05,"Baguio City, Philippines",tw_net_505,"@SmartCares, please help! Walang internet connection sa area namin. Need ko ng work! #SmartInternetDown #Help",55,38,text,post
+Instagram,2024-03-04,"General Santos City, Philippines",ig_net_606,"Enjoying my fast DITO internet while watching my favorite shows. Thank you, DITO! 😄 #DITOinternet #HappyCustomer",412,30,video,post
+Facebook,2024-03-03,"Iloilo City, Philippines",fb_net_707,"Grabe ang bagal ng Smart dito sa amin! Mas mabilis pa pagong. 🐢 #SmartNetwork #VerySlow",67,23,text,post
+Twitter,2024-03-02,"Palawan, Philippines",tw_net_808,"Globe is doing a great job here in Palawan. No issues with signal or speed. Kudos! 🙌 #GlobePH #GreatService",222,14,text,post
+Instagram,2024-03-01,"Pasig City, Philippines",ig_net_909,"Finally, a reliable network! Using DITO and I'm loving it! 👍 #DITO #Internet",534,44,image,post
+Facebook,2024-02-29,"Tagaytay, Philippines",fb_net_1010,"Can't believe how unreliable Smart is. Switching to another network soon. #SmartNetworkFail #BadService",99,60,text,post
+Twitter,2024-02-28,"Batangas, Philippines",tw_net_1111,"@GlobePH  Thank you for the excellent internet service! No problems here in Batangas! #GlobeCustomer #Satisfied",188,11,text,post
+Instagram,2024-02-27,"Makati, Philippines",ig_net_1212,"Nakaka-frustrate talaga ang Smart! Slow internet and poor customer service! 😠 #SmartInternet #BadExperience",78,35,image,post
+Facebook,2024-02-26,"Pampanga, Philippines",fb_net_1313,"Super fast connection with DITO! Uploading videos and streaming without lag. 🎉 #DITOExperience #FastNetwork",301,28,video,post
+Twitter,2024-02-25,"Siargao, Philippines",tw_net_1414,"@GlobeCare, please check your network in Siargao. Very slow and unreliable! 😤 #GlobeNetwork #PoorSignal",45,18,text,post
+Instagram,2024-02-24,"Pasay, Philippines",ig_net_1515,"I'm enjoying my DITO connection while gaming. No lag, no problem! 😎 #DITOGaming #ReliableNetwork",678,55,image,post
