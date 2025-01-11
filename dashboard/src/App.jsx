@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Posts from '@/Pages/Posts.jsx'
-import Location from '@/Pages/Location.jsx'
+import Posts from './Pages/Posts.jsx'
+import Location from './Pages/Location.jsx'
 function Home() {
   return <h1>Home Page</h1>;
 }
