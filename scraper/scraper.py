@@ -36,7 +36,7 @@ except Exception as e:
 
 # Define the endpoint and query parameters
 endpoint = "https://api.twitter.com/2/tweets/search/recent"
-query = "globe"  # Replace with your query or hashtag
+query = "@enjoyGLOBE"  # Replace with your query or hashtag
 max_results = 10  # Limit the results to fit free tier (max 100)
 
 headers = {
@@ -53,12 +53,24 @@ csv_file_path = 'testData1.csv'  # Replace with the actual file path
 
 # Read CSV data
 csv_data = []
+# with open(csv_file_path, mode='r', encoding='utf-8') as file:
+#     reader = csv.DictReader(file)
+#     for row in reader:
+#         csv_data.append(row)
+
 with open(csv_file_path, mode='r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
     for row in reader:
-        csv_data.append(row)
+        processed_row = {
+            "author": row.get("Author", ""),
+            "date_created": row.get("Created_At", ""),
+            "id": row.get("Post_ID", ""),
+            "text": row.get("Post_Text", ""),
+            "platform": row.get("Platform", ""), 
+        }
+        csv_data.append(processed_row)
         
-json_file_path = 'csv.json'
+json_file_path = 'fromCsv.json'
 
 # Open a JSON file to write the data
 with open(json_file_path, 'w', encoding='utf-8') as file:
@@ -67,29 +79,33 @@ with open(json_file_path, 'w', encoding='utf-8') as file:
 
 print(f"Tweets have been saved to {json_file_path}")
         
-        
 def fetch_tweets():
     # Make the request
     response = requests.get(endpoint, headers=headers, params=params)
 
-    # if response.status_code == 200:
-    #     tweets = response.json()
-    #     for tweet in tweets['data']:
-    #         print(f"Tweet: {tweet['text']}")
-    # else:
-    #     print(f"Error: {response.status_code}")
-
     # Path to save JSON file
-    json_file_path2 = 'tweets.json'
+    json_file_path2 = 'fromScraped.json'
  
     # Scraped data to JSON
     if response.status_code == 200:
         tweets = response.json()
+        processed_tweets = []
 
-        # Open a JSON file to write the data
-        with open(json_file_path, 'w', encoding='utf-8') as file:
-            # Save the data directly in JSON format
-            json.dump(tweets, file, indent=4)
+        # Process each tweet to include the required fields
+        if 'data' in tweets:
+            for tweet in tweets['data']:
+                processed_tweet = {
+                    "author": "",  # Empty author field
+                    "date_created": "",  # Empty date_created field
+                    "id": tweet.get("id", ""),
+                    "text": tweet.get("text", ""),
+                    "platform": "Twitter"  # Static platform field
+                }
+                processed_tweets.append(processed_tweet)
+
+        # Save processed data to JSON
+        with open(json_file_path2, 'w', encoding='utf-8') as file:
+            json.dump(processed_tweets, file, indent=4)
 
         print(f"Tweets have been saved to {json_file_path2}")
     else:
@@ -99,4 +115,4 @@ def fetch_tweets():
 while True:
     fetch_tweets()
     print("Waiting for the next request...")
-    time.sleep(30)  # Sleep for 5 minutes
+    time.sleep(300)  # Sleep for 5 minutes
