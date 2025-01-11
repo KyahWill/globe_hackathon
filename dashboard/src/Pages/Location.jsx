@@ -1,4 +1,4 @@
-import { Table, TableHeader, TableRow, TableHead } from "@/components/ui/table";
+import { Table, TableHeader, TableRow, TableHead } from "./../components/ui/table.jsx";
 
 const Location = () => {
   return (
