@@ -1,0 +1,142 @@
+[
+    {
+        "author": "user123",
+        "date_created": "2023-10-26 8:00:00",
+        "id": "1",
+        "text": "\"Internet down again in Makati! #Globe #internetproblems\"",
+        "platform": "Facebook"
+    },
+    {
+        "author": "JuanDelaCruz",
+        "date_created": "2023-10-26 8:15:00",
+        "id": "2",
+        "text": "\"@Globe My connection in Quezon City has been unstable all morning.  Can't even load a webpage!\"",
+        "platform": "Twitter"
+    },
+    {
+        "author": "MariaClara",
+        "date_created": "2023-10-26 9:00:00",
+        "id": "3",
+        "text": "\"Anyone else having trouble with Globe in Pasig? Super slow internet!\"",
+        "platform": "Facebook"
+    },
+    {
+        "author": "CebuCitizen",
+        "date_created": "2023-10-26 9:30:00",
+        "id": "4",
+        "text": "\"Is Globe having an outage in Cebu? My internet is down.\"",
+        "platform": "Twitter"
+    },
+    {
+        "author": "ManilaResident",
+        "date_created": "2023-10-26 10:00:00",
+        "id": "5",
+        "text": "\"Internet is crawling in Manila today. Thanks, Globe \ud83d\ude44\"",
+        "platform": "Facebook"
+    },
+    {
+        "author": "DavaoDude",
+        "date_created": "2023-10-26 10:30:00",
+        "id": "6",
+        "text": "\"@Globe please fix the internet in Davao! It's been down for an hour!\"",
+        "platform": "Twitter"
+    },
+    {
+        "author": "moviebuff",
+        "date_created": "2023-10-27 8:00:00",
+        "id": "7",
+        "text": "\"Having trouble streaming in Taguig. Is Globe down?\"",
+        "platform": "Facebook"
+    },
+    {
+        "author": "PasayUser",
+        "date_created": "2023-10-27 9:00:00",
+        "id": "8",
+        "text": "\"@Globe internet is down in Pasay! Please advise.\"",
+        "platform": "Twitter"
+    },
+    {
+        "author": "frustrateduser",
+        "date_created": "2023-10-27 10:00:00",
+        "id": "9",
+        "text": "\"Another day, another Globe outage in Makati. \ud83d\ude24\"",
+        "platform": "Facebook"
+    },
+    {
+        "author": "QC_Resident",
+        "date_created": "2023-10-27 11:00:00",
+        "id": "10",
+        "text": "\"Internet is spotty in Quezon City.  @Globe what's going on?\"",
+        "platform": "Twitter"
+    },
+    {
+        "author": "cebuana",
+        "date_created": "2023-10-28 8:00:00",
+        "id": "11",
+        "text": "\"Can't get online in Cebu. Is it just me or is Globe down?\"",
+        "platform": "Facebook"
+    },
+    {
+        "author": "DavaoGamer",
+        "date_created": "2023-10-28 9:00:00",
+        "id": "12",
+        "text": "\"@Globe any updates on the outage in Davao?\"",
+        "platform": "Twitter"
+    },
+    {
+        "author": "happycustomer",
+        "date_created": "2023-10-28 10:00:00",
+        "id": "13",
+        "text": "\"Internet is back in Taguig! Thanks, Globe!\"",
+        "platform": "Facebook"
+    },
+    {
+        "author": "PasayBusiness",
+        "date_created": "2023-10-28 11:00:00",
+        "id": "14",
+        "text": "\"Still no internet in Pasay. @Globe this is getting ridiculous.\"",
+        "platform": "Twitter"
+    },
+    {
+        "author": "relieved",
+        "date_created": "2023-10-29 8:00:00",
+        "id": "15",
+        "text": "\"Finally! Internet is working again in Makati. #Globe\"",
+        "platform": "Facebook"
+    },
+    {
+        "author": "online_shopper",
+        "date_created": "2023-10-29 9:00:00",
+        "id": "16",
+        "text": "\"Internet seems to be stable now in Quezon City.  @Globe\"",
+        "platform": "Twitter"
+    },
+    {
+        "author": "cebu_foodie",
+        "date_created": "2023-10-29 10:00:00",
+        "id": "17",
+        "text": "\"Anyone else experiencing slow internet in Cebu? #Globe\"",
+        "platform": "Facebook"
+    },
+    {
+        "author": "davao_student",
+        "date_created": "2023-10-29 11:00:00",
+        "id": "18",
+        "text": "\"@Globe internet is down again in Davao! This is the third time this week!\"",
+        "platform": "Twitter"
+    },
+    {
+        "author": "taguig_resident",
+        "date_created": "2023-10-30 8:00:00",
+        "id": "19",
+        "text": "\"Having trouble connecting to the internet in Taguig. @Globe please help!\"",
+        "platform": "Facebook"
+    },
+    {
+        "author": "pasay_local",
+        "date_created": "2023-10-30 9:00:00",
+        "id": "20",
+        "text": "\"Internet is out in Pasay. @Globe is there an estimated time of restoration?\"",
+        "platform": "Twitter"
+    }
+]
